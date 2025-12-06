@@ -7,13 +7,10 @@
 🚀 More
 🚨 Tutorial
 
-
-
+Live demo: https://signalist-stock-tracker-app-green.vercel.app/
 
 ✨ Introduction
 AI-powered modern stock market app built with Next.js, Shadcn, Better Auth, and Inngest! Track real-time prices, set personalized alerts, explore company insights, and manage watchlists. The admin dashboard allows managing stocks, publishing news, and monitoring user activity, while event-driven workflows power automated alerts, AI-driven daily digests, earnings notifications, and sentiment analysis—perfect for devs who want a dynamic, real-time financial platform.
-
-
 
 
 ⚙️ Tech Stack
@@ -78,18 +75,18 @@ Create a new file named .env in the root of your project and add the following c
 NODE_ENV='development'
 NEXT_PUBLIC_BASE_URL=http://localhost:3000
 
-# FINNHUB
+ FINNHUB
 NEXT_PUBLIC_NEXT_PUBLIC_FINNHUB_API_KEY=
 FINNHUB_BASE_URL=https://finnhub.io/api/v1
 
-# MONGODB
+ MONGODB
 MONGODB_URI=
 
-# BETTER AUTH
+ BETTER AUTH
 BETTER_AUTH_SECRET=
 BETTER_AUTH_URL=http://localhost:3000
 
-# GEMINI
+ GEMINI
 GEMINI_API_KEY=
 
 #NODEMAILER
